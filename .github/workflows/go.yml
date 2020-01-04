@@ -24,7 +24,7 @@ jobs:
             dep ensure
         fi
 
-    - name: Test
+    - name: Uji Test Minesweeper
       run: go test
       
     - name: Build
